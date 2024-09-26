@@ -2,4 +2,6 @@
 *.json
 *.terraform
 *.txt
+*.terraform.hcl
+
 
