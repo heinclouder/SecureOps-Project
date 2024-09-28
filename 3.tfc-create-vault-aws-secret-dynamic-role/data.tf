@@ -2,7 +2,7 @@ data "terraform_remote_state" "vault_admin" {
   backend = "remote"
 
   config = {
-    organization = "hellocloud-cohor6"
+    organization = "heincloudnative-org"
     workspaces = {
       name = "tfc-create-vault-admin-iam-aws"
     }
